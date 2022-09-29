@@ -53,7 +53,7 @@ project  $ docker build --rm -t chen.eric/project:latest .
 
 ```shell
 project  $ docker run -it --rm --name project chen.eric/project:latest
-project  $ docker run -dp 8080:8080 --rm --name cats chen.eric/cats:latest 
+project  $ docker run -dp 8080:8080 --rm --name project chen.eric/project:latest 
 ```
 
 [//]: # (3. In a browser, open http://localhost:8080/)
